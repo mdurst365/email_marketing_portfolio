@@ -1,0 +1,87 @@
+@charset "utf-8";
+/* CSS Document */
+
+.pub_gray {
+  display: inline-block;
+  margin-left: 92%;
+}
+
+.vs_images {
+	border:solid thin black; 
+	display:block; 
+	margin:auto;
+}
+
+.homepage_button {
+  background-color: #ddddbb;
+  color: darkgray;
+  padding: 2%;
+  border: thin solid lightgray;
+  border-radius: 15px;
+}
+
+.homepage_button:hover {
+  background-color: #eeeedd;
+}
+
+.col-sm {
+	padding: 1%;
+}
+
+
+.profile {
+  float:left;
+  margin-right: 3%;
+  border: thin solid lightgray;
+  border-radius: 100px;
+}
+
+
+.featured_image {
+  display: block;
+  margin: auto;
+  width: 95%;
+  height: auto;
+  border: thin solid lightgray;
+}
+
+main {
+	margin: auto; 
+	width:90%; 
+	background-color: rgba(255, 255, 255, 0.8);
+	padding: 1%;	
+}
+
+.img-fluid {
+	border: thin solid lightgray;
+}
+
+
+button a:link, a:visited {
+	color: black;
+}
+
+ .bd-placeholder-img {
+        font-size: 1.125rem;
+        text-anchor: middle;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+      }
+
+      @media (min-width: 768px) {
+        .bd-placeholder-img-lg {
+          font-size: 3.5rem;
+        }
+      }
+
+.thinborder {
+  border:thin solid black;
+}
+
+.emailexapleimg { 
+  width: 100%;
+  max-height: 100vh;
+}
+
